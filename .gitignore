@@ -1,0 +1,97 @@
+# Secrets and environment variables
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Python environments and caches
+.venv/
+venv/
+env/
+**/.venv/
+**/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Node dependencies and build output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+.vite/
+
+# Local caches, temporary files and old backups
+pip-cache/
+temp/
+backend_backup_before_brain/
+
+# Model weights — keep local for now
+*.keras
+*.h5
+*.hdf5
+*.pth
+*.pt
+*.onnx
+*.safetensors
+
+# Local databases and sensitive data
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+**/uploads/
+patient_data/
+**/patient_data/
+reports/
+**/reports/
+
+# Credentials, private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Local IDE settings
+.vscode/
+.idea/
+
+# Backup and temporary source files
+*.backup
+*.backup-*
+*.before-*
+*.pre-*
+*.broken
+*.txt.backup
+
+# Explicit temporary files
+backend/auth.py.backup-before-history
+backend/main.before-history-integration.py
+backend/main.py.backup-*
+backend/routers/**/*.backup-*
+backend/services/**/*.backup-*
+frontend/src/**/*.backup*
+frontend/src/**/*.before-*
+frontend/src/**/*.pre-*
+frontend/src/App_broken_backup.jsx
+frontend/src/original-report-section.txt
+frontend/src/App.print-backup.css
+frontend/src/index.backup.css
+
+frontend/original-report-section.txt
+
+frontend/original-report-section.txt
